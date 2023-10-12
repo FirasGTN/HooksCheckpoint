@@ -1,0 +1,56 @@
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    width: 20%;
+    height: 550px;
+    background : rgba(255, 255, 255, 0.10);
+    backdrop-filter: blur(5px);
+    border-radius: 10px;
+    overflow: hidden;
+  }
+
+  .car-body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 10px;
+    margin-top: 10px;
+  }
+
+  .car-body p {
+    font-weight: 300;
+    height: 96px;
+    display: flex;
+    align-items: center;
+  }
+
+  .car-body p , h2 , h3 {
+    margin: 0;
+  }
+
+  .car-body h2{
+    text-transform: uppercase;
+  }
+  
+  .ProductRend{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 50px;
+    gap: 10px;
+  }
+
+figure{
+  height: 350px;
+  width: 100%;
+  margin: 0px;
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+}
+
+  
+

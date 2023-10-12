@@ -1,0 +1,97 @@
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 20px 0px 90px;
+    height: 70px;
+    background : rgba(255, 255, 255, 0.10);
+    backdrop-filter: blur(10px);
+    color: white;
+    box-shadow: 0px 10px 10px rgba(255, 255, 255, 0.10);
+  }
+  
+  
+  .ulone {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    width: 20%;
+    padding: 0px;
+  }
+  
+  .nav .ulone li {
+    display: flex;
+    justify-content: center;
+    width: 120px;
+  }
+  
+  .bt {
+    border: none;
+    background-color: transparent;
+    height: 100%;
+    width: 100%;
+    color: white;
+    font-size: 18px;
+    text-shadow: 5px 5px 10px black;
+    transition: 0.8s;
+  }
+  
+  .bt:hover,.bt:focus{
+    color: rgb(246, 162, 73);
+  }
+  
+  #test {
+    width: fit-content;
+    display: flex;
+
+    list-style: none;
+    padding: 0%;
+  }
+  
+  #searchtitle{
+    width: 155px;
+    height: 23px;
+    border:  rgb(246, 162, 73) 1px solid;
+    border-radius: 10px 0px 0px 10px;
+    padding-left: 10px;
+    color: white;
+    border-right: none;
+    background-color: transparent;
+  }
+  
+  #searchrate{
+    width: 141px;
+    height: 23px;
+    color: white  ;
+    border:  rgb(246, 162, 73) 1px solid;
+    background-color: transparent;
+    border-right: none;
+    padding-left: 10px;
+    padding-right: 16px;
+  }
+  
+  input:focus{
+    outline:none;
+  }
+  
+  #BtSearch{
+    text-shadow: none;
+    background-color: white;
+    border-radius: 0px 10px 10px 0px;
+    position: relative;
+    left: -15px;
+    box-sizing: border-box;
+  }
+  
+  #BtSearch{
+    color: white;
+    border:  rgb(246, 162, 73) 1px solid;
+    border-left: none;
+    background-color: transparent;
+    font-size: 15px;
+  }
+  
+  #BtSearch:hover{
+    background-color: rgb(246, 162, 73);
+    color: white;
+  }
