@@ -15,6 +15,16 @@ const ProductRend = (props) => {
         {props.BtShow && !props.unshow ? <button className='NewBt' onClick={props.New}>+</button> : 
         <table className='InputMovie'>
           <ul className='InputMovie-item'>
+            <li><h5>Movie ID :</h5></li>
+            <li>
+              <input type="text" 
+              placeholder="ID"
+              value={props.newMovie.id}
+              onChange={(e) => props.setNewMovie({ ...props.newMovie, id: e.target.value })} 
+              /> 
+            </li>
+          </ul>
+          <ul className='InputMovie-item'>
             <li><h5>Movie Name :</h5></li>
             <li>
               <input type="text" 
@@ -44,6 +54,16 @@ const ProductRend = (props) => {
               </li>
           </ul>
           <ul className='InputMovie-item'>
+            <li><h5>Movie Trailer :</h5></li>
+            <li>
+              <input type="text" 
+              placeholder="Movie Trailer From Embed"
+              value={props.newMovie.trailer}
+              onChange={(e) => props.setNewMovie({ ...props.newMovie, trailer: e.target.value })} 
+              />
+            </li>
+          </ul>
+          <ul className='InputMovie-item'>
             <li><h5>Movie Rate :</h5></li>
             <li>
               <input type="text" 
@@ -53,7 +73,7 @@ const ProductRend = (props) => {
               />
             </li>
           </ul>
-          <button onClick={props.old}>Submit</button>
+          <button onClick={props.old} className="NewSub">Submit</button>
         </table> }
         {props.unshow ? !props.BtShow : console.log("non")}
       </div>
