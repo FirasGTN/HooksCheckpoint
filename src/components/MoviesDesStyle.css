@@ -27,3 +27,26 @@
     /* border: 2px solid blue; */
     width: 50%;
 }
+
+.link-back{
+    width: 30%;
+    height: 40px;
+    margin-top: 18px;
+    border-radius: 10px;
+    transition: 0.8s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid white;
+    border-radius: 10px;
+    text-decoration: none;
+}
+
+.link-back:hover{
+    background-color: rgb(246, 162, 73);
+    border-color: rgb(246, 162, 73);
+}
+
+.bt-back{
+    border: none;
+}
